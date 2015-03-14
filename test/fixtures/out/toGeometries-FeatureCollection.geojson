@@ -1,0 +1,13 @@
+{
+    "type": "GeometryCollection",
+    "geometries": [
+        {
+            "type": "Point",
+            "coordinates": [0, 0]
+        },
+        {
+            "type": "Point",
+            "coordinates": [1, 1]
+        }
+    ]
+}

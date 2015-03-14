@@ -1,0 +1,22 @@
+{
+  "name": "turf-coerce",
+  "version": "1.0.0",
+  "description": "coerces geojson to be either features or geometries",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "turf",
+    "gis",
+    "geojson",
+    "geometry"
+  ],
+  "author": "Tim Channell",
+  "license": "ISC",
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "glob": "^5.0.3",
+    "tape": "^3.5.0"
+  }
+}
