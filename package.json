@@ -1,10 +1,11 @@
 {
-  "name": "turf-coerce",
+  "name": "turf-to-geometries",
   "version": "1.0.0",
-  "description": "coerces geojson to be either features or geometries",
+  "description": "converts arbitrary geojson into geometry objects",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js",
+    "doc": "dox -r < index.js | doxme --readme > README.md"
   },
   "keywords": [
     "turf",
@@ -15,8 +16,9 @@
   "author": "Tim Channell",
   "license": "ISC",
   "devDependencies": {
-    "benchmark": "^1.0.0",
     "glob": "^5.0.3",
-    "tape": "^3.5.0"
+    "tape": "^3.5.0",
+    "dox": "^0.6.1",
+    "doxme": "^1.4.3"
   }
 }
