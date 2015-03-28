@@ -7,6 +7,14 @@
     "test": "node test/test.js",
     "doc": "dox -r < index.js | doxme --readme > README.md"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Turfjs/turf-to-geometries.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Turfjs/turf-to-geometries/issues"
+  },
+  "homepage": "https://github.com/Turfjs/turf-to-geometries",
   "keywords": [
     "turf",
     "gis",
@@ -14,7 +22,7 @@
     "geometry"
   ],
   "author": "Tim Channell",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "glob": "^5.0.3",
     "tape": "^3.5.0",
